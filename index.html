@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+<head>
+<title> Estherittoh - Portfolio </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizzing: border-box;
+	}
+	.row{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.header{
+		position: fixed;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100vw;
+		height: 10vh;
+		background-color: whitesmoke;
+		box-shadow: 1px 1px 5px 1px grey;
+	}
+	.header h3{
+		color: blueviolet;
+		padding-left: 20px;
+	}
+	nav{
+		display: flex;
+		}
+	nav a{
+		text-decoration: none;
+		color: blueviolet;
+		padding: 10px 20px;
+	}
+	nav a:hover{
+		border: 1px solid blueviolet;
+		background-color: blueviolet;
+		color: whitesmoke;
+	}
+		
+	
+	.home{
+		width: 100vw;
+		flex-direction: column;
+		height: 50vh;
+		background-color: blueviolet;
+	}
+	.about{
+		width: 90vw;
+		height: 50vh;
+		padding: 20px;
+		background-color: whitesmoke;
+		margin: 20px auto;
+		box-shadow: 1px 1px 5px 1px grey;
+	}
+	.about img {
+		width: 150px;
+		height: 150px;
+		padding: 0 20px;
+		border-radius: 100%;
+		object-fit: cover;
+	}
+	.skills{
+		width: 90vw;
+		flex-direction: column;
+		height: 50vh;
+		padding: 50px;
+		background-color: blueviolet;
+		margin: 20px auto;
+		box-shadow: 1px 1px 5px 1px blueviolet;
+	}
+	.jc-sb{
+		justify-content: space-between;
+		}
+		
+	.my-projects{
+		flex-direction: column;
+		width: 90vw;
+		height: 100vh;
+		padding: 20px;
+		background-color: whitesmoke;
+		margin: 20px auto;
+		box-shadow: 1px 1px 5px 1px grey;
+	}
+	.my-projects .title{
+		padding-top: 50px;
+	}
+	.projects{
+		display: flex;
+		padding: 20px;
+	}
+	.project{
+		background-color: whitesmoke;
+		padding: 20px;
+		margin: 20px;
+		border-radius: 5px;
+		box-shadow: 1px 1px 5px 1px grey;
+	}
+	.project p{
+		margin-bottom: 20px;
+	}
+	.project img{
+		width: 100%;
+		height: 200px;
+	}
+	.contacts{
+		width: 100vw
+		height: 10vh;
+		padding: 20px;
+		background-color: blueviolet;
+		margin: 40px auto 20px auto;
+		color: white;
+		box-shadow: 1px 1px 5px 1px grey;
+	}
+	.social{
+		display: flex;
+		flex-direction: column;
+		width: 90vw;
+		height: 50vh;
+		padding: 20px;
+		background-color: whitesmoke;
+		margin: 20px auto;
+		box-shadow: 1px 1px 5px 1px grey;
+	}
+	.footer{
+		width: 100%;
+		height: 20px;
+		padding: 20px;
+		background-color: #2d2d2d;
+		margin: 20px auto;
+		color: white;
+		box-shadow: 1px 1px 5px 1px grey;
+		text-align: center;
+	}
+	.btn{
+		text-decoration: none;
+		background-color: whitesmoke;
+		border: 1px solid blueviolet;
+		padding: 10px;
+		margin: 20px;
+		color: blueviolet;
+		font-size: 16px;
+		text-align: center;
+		transition: padding 1s ease 0.1s;
+	}
+	.btn:hover{
+		background-color: blueviolet;
+		border-radius: 10px;
+		color: whitesmoke;
+		padding: 10px 20px;
+	}
+</style>
+</head>
+<body>
+<div class="header">
+	<h3>Estherittoh</h3>
+	<nav>
+		<a href="#home">Home</a>
+		<a href="#about">About Me</a>
+		<a href="#skills">My Skills</a>
+		<a href="#works">My Projects</a>
+		<a href="#contacts">Contact Me</a>
+	</nav>
+</div>
+<div class="row home" id="home">
+	<p>Hi, I'm</p>
+  <h1>ESTHER DUNSTAN</h1>
+   <p>WEB DEVELOPER</p>
+   
+</div>
+   
+
+   <div class="row about" id="about">
+   <img src="esi.jpg">
+      <div>
+	  <h3> About Me</h3>
+	 <p>I have experienced developer and designers,<br> ready to help you build web and mobile application</p>
+	 </div>
+	 
+	 </div>
+	 
+	 
+<div class="row skills" id="skills">
+   <div style="
+		text-align: center;">
+   <h2>Skills</h2>
+   <p>I like to code from scratch and enjoy bringing ideas <br>to life in the browser</p>
+  </div>
+  <br>
+  <div class="row jc-sb">
+  
+  <div>
+   <h2>Languages </h2>
+        <ul>
+			<li>html</li>
+		<li>css</li>
+		<li>react</li>
+		<li>javascript</li>
+		<li>wordpress{cms}</li>
+		</ul>
+		</div>
+		
+		<div>
+      <h2>Dev Tools</h2>
+	  <ul>
+	     <li>Html</li>
+		 <li>Git</li>
+		 <li>Github</li>
+		 <li>Visual studio code</li>
+		 <li>Notepad++</li>
+		 </ul>
+		 </div>
+		 </div>
+		 </div>
+		 
+		 <div class="row my-projects" id="works">
+			<div class="title">
+			<h1>My Recent Projects</h1>
+			</div>
+			<div class="projects">
+				<div class="project">
+					<img src="project1.png">
+					<h3>SHEK'S FOOD STORE</h3>
+					<p>SHEK'S Food Store Nafaka</p>
+					<a href="https://esther.lostnfound.co.tz" class="btn">Visit Website</a>
+				</div>
+				
+				<div class="project">
+					<img src="project1.png">
+					<h3>Project Title</h3>
+					<p>Project Description</p>
+					<a href="https://esther.lostnfound.co.tz" class="btn">Visit Website</a>
+				</div>
+				
+				<div class="project">
+					<img src="project1.png">
+					<h3>Project Title</h3>
+					<p>Project Description</p>
+					<a href="https://esther.lostnfound.co.tz" class="btn">Visit Website</a>
+				</div>
+			</div>
+			</div>
+<div class="row contacts" id="contacts">
+<h4>CONTACT ME</h4>
+     </div>
+	 <div class="row social">
+	   <h3>MAILING ADRESS</h3>
+	     <p>Kinondini,vijana.Mafere Street.House No.22.</p>
+      
+	  <br>
+	  <h3>EMAIL ADRESS</h3>
+	   <p>EstherDunstan@gmail.com</p>
+	   
+	   <br>
+	   <h3>PHONE NUMBER</h3>
+	   <p>+225759917229</p>
+	   </div>
+	   
+	   <div class="footer">
+		<p>Copyright | Estherittoh </p>
+		</div>
+</body>
+</html>
